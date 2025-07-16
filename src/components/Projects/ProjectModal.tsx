@@ -40,7 +40,7 @@ const ProjectModal = ({
     <Dialog open={isOpen} onOpenChange={() => onClose()}>
       <DialogContent className="bg-background max-w-4xl max-h-[90vh] overflow-y-auto">
         <div className="absolute right-4 top-4 z-10">
-          <Button variant="ghost" size="icon" onClick={onClose}>
+          <Button variant="default" size="icon" onClick={onClose}>
             <X className="h-4 w-4" />
           </Button>
         </div>
@@ -79,7 +79,7 @@ const ProjectModal = ({
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
           <TabsList className="grid grid-cols-3 mb-6">
             <TabsTrigger value="overview">Overview</TabsTrigger>
-            <TabsTrigger value="challenges">Challenges & Solutions</TabsTrigger>
+            {/* <TabsTrigger value="challenges">Challenges & Solutions</TabsTrigger> */}
             <TabsTrigger value="tech">Technologies</TabsTrigger>
           </TabsList>
 
@@ -87,7 +87,7 @@ const ProjectModal = ({
             <div className="text-sm">{displayProject.fullDescription}</div>
           </TabsContent>
 
-          <TabsContent value="challenges" className="space-y-4">
+          {/* <TabsContent value="challenges" className="space-y-4">
             <div>
               <h3 className="font-medium mb-2">Challenges</h3>
               <p className="text-sm">{displayProject.challenges}</p>
@@ -96,7 +96,7 @@ const ProjectModal = ({
               <h3 className="font-medium mb-2">Solution</h3>
               <p className="text-sm">{solution}</p>
             </div>
-          </TabsContent>
+          </TabsContent> */}
 
           <TabsContent value="tech" className="space-y-4">
             <div className="flex flex-wrap gap-2">

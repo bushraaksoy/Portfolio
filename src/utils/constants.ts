@@ -14,13 +14,12 @@ export const defaultProjects: Project[] = [
     category: "fullstack",
     technologies: ["React", "Express.js", "Tailwind CSS", "Prisma ORM", "PostgreSQL"],
     demoUrl: "https://example.com/demo",
-    sourceUrl: "https://github.com/example/project",
+    sourceUrl: "https://github.com/bushraaksoy/BalanceBox.git",
     images: [
       "/balancebox3.png",
       "/balancebox2.png",
     ],
-    fullDescription:
-      "A comprehensive e-commerce solution built with modern web technologies. Features include product filtering, user authentication, shopping cart, wishlist, and secure checkout with Stripe integration.",
+    fullDescription: "A mobile web application where users can manage their finances by budgeting all incomes, expenses and transactions. Users create virtual cards and assign them to incomes. Integrated with a personalized AI chatbot assistant for quick finance related questions.",
     challenges:
       "Implementing a responsive design that works across all devices while maintaining performance was challenging. Also had to optimize image loading for better user experience.",
   },
@@ -32,15 +31,14 @@ export const defaultProjects: Project[] = [
     thumbnail:
       "/attendanceportalcourse.png",
     category: "fullstack",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+    technologies: ["React.js", "Node.js", "Express.js", "PostreSQL"],
     demoUrl: "https://example.com/demo",
-    sourceUrl: "https://github.com/example/project",
+    sourceUrl: "https://github.com/bushraaksoy/AttendancePortal.git",
     images: [
       "/attendanceportalcourse.png",
       "/attendanceportaladmin.png",
     ],
-    fullDescription:
-      "A real-time task management application that allows teams to collaborate efficiently. Features include drag-and-drop task organization, real-time updates, task assignment, due dates, and progress tracking.",
+    fullDescription: "A University portal for admins, teachers and students where they can manage their course schedules and students can log their attendance using a QR system.",
     challenges:
       "Implementing real-time updates using Socket.io while ensuring data consistency across multiple users was a significant challenge.",
   },
@@ -52,15 +50,14 @@ export const defaultProjects: Project[] = [
     thumbnail:
       "/blogsblogpage.png",
     category: "frontend",
-    technologies: ["React", "D3.js", "Styled Components"],
+    technologies: ["React.js", "react markdown"],
     demoUrl: "https://example.com/demo",
-    sourceUrl: "https://github.com/example/project",
+    sourceUrl: "https://github.com/bushraaksoy/Thoughts-Of-The-Heart.git",
     images: [
       "/blogsblogpage.png",
       "/blogshome.png",
     ],
-    fullDescription:
-      "A comprehensive fitness tracking dashboard that visualizes workout data, nutrition intake, and progress over time. Users can set goals and track their journey with interactive charts and graphs.",
+    fullDescription:"A blogs reading website that shows blogs with their estimated reading time and utilizes markdown to html for styling.",
     challenges:
       "Creating intuitive and responsive data visualizations that work across different screen sizes was challenging.",
   },
@@ -72,38 +69,35 @@ export const defaultProjects: Project[] = [
     thumbnail:
       "/bookwormhome.png",
     category: "fullstack",
-    technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
+    technologies: ["React.js", "Node.js", "Express.js", "CSS"],
     demoUrl: "https://example.com/demo",
-    sourceUrl: "https://github.com/example/project",
+    sourceUrl: "https://github.com/bushraaksoy/BookWorm.git",
     images: [
       "/bookwormhome.png",
       "/bwaddbook.png",
       "/bwafilter.png",
     ],
-    fullDescription:
-      "A platform where food enthusiasts can share, discover, and save recipes. Features include recipe creation with step-by-step instructions, ingredient lists, search functionality, and user profiles.",
+    fullDescription: "A personal library application where users can view their books, add new books, edit, delete and search books.",
     challenges:
       "Designing an intuitive recipe creation interface that works well for both novice and experienced users was a key challenge.",
   },
   {
     id: "5",
-    title: "Attendance Student Portal",
+    title: "QuranBot",
     description:
-      "A weather forecast application with location-based services and interactive maps.",
+      "A comforting AI chatbot that uses suitable verses from the quran to comfort.",
     thumbnail:
-      "https://images.unsplash.com/photo-1530908295418-a12e326966ba?w=800&q=80",
-    category: "mobile",
-    technologies: ["React Native", "OpenWeatherMap API", "Google Maps API"],
-    demoUrl: "https://example.com/demo",
-    sourceUrl: "https://github.com/example/project",
+      "/quranbot2.png",
+    category: "Machine Learning",
+    technologies: ["Python", "Streanlit", "Pytorch", "Pandas"],
+    demoUrl: "/quranbot1.png",
+    sourceUrl: "/quranbot2.png",
     images: [
-      "https://images.unsplash.com/photo-1530908295418-a12e326966ba?w=800&q=80",
-      "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
+      "",
     ],
-    fullDescription:
-      "A cross-platform mobile application that provides accurate weather forecasts based on user location. Features include current conditions, 7-day forecast, weather alerts, and interactive maps.",
+    fullDescription:"",
     challenges:
-      "Optimizing API calls to minimize data usage while providing timely weather updates was a significant challenge.",
+      "An AI chatbot that was trained using pre-trained models along with a custom dataset. The bot gives comforting verses from the quran in response to the user input.",
   },
   {
     id: "6",
@@ -114,10 +108,8 @@ export const defaultProjects: Project[] = [
     category: "frontend",
     technologies: ["React", "Framer Motion", "Tailwind CSS"],
     demoUrl: "https://example.com/demo",
-    sourceUrl: "https://github.com/example/project",
+    sourceUrl: "https://github.com/bushraaksoy/Portfolio.git",
     images: [
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
-      "https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=800&q=80",
     ],
     fullDescription:
       "A modern portfolio website built with React and animated with Framer Motion. Features include project showcases, skills section, contact form, and responsive design.",

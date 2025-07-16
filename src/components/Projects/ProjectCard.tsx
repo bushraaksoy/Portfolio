@@ -41,13 +41,14 @@ const ProjectCard = ({
                   </a>
                 </Button>
               )}
-              {project.demoUrl && (
+              {/* // TODO: uncomment when you get demo links */}
+              {/* {project.demoUrl && (
                 <Button size="sm" variant="secondary" asChild>
                   <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="h-4 w-4 mr-1" /> Demo
                   </a>
                 </Button>
-              )}
+              )} */}
             </div>
           </div>
         </div>
